@@ -1,0 +1,248 @@
+/* ================================reset================================= */
+
+*{ margin: 0; padding: 0;}
+
+a:hover{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+.drop1{
+	position: relative;
+}
+.submenu1{
+	position: absolute;
+}
+
+  .submenu1{
+	position: absolute; display: none; z-index: 2; background: #fff; 
+
+}
+
+.drop1:hover .submenu1{
+    display: block; /*background-color: green;*/ width: 150px; text-decoration: none; text-align: justify;
+
+}
+.submenu1 li a:hover{
+	text-align: none; display: block; background-color: transparent; text-decoration: none; line-height: 40px; 
+    
+}
+.submenu1 li a{
+	/* line-height: 40px; */ display: block; z-index: 2;  font-size: 15px;
+	 line-height: 40px; color: #777; text-shadow: none; margin-left: 18px;
+}
+ul{
+	list-style-type: none;
+}
+/*===========================header====================================== */
+.navbar-nav>li>a{
+	    padding-bottom: 27px;
+}
+.nav>li>a{
+	    padding: 10px 13px;
+}
+.navbar-nav {
+	margin-bottom: 20px;
+}
+
+.cont{
+	padding: 10px 0;
+}
+.logo{
+	position: relative;    margin-left: 5%;
+}
+.drop1 a{
+	color: #000;
+}
+.logo h1{
+    font-size: 35px; color: #000; margin-top: 1%;
+}
+.logo h1 span{
+    font-size: 14px; color: #000; position: absolute; top: 90%; left: 12%;
+}
+.navbarlist{
+	margin-top: 2%;    margin-left: 17%;
+}
+.anchor{
+	text-align: center; margin-top: 1.4%;
+}
+.anchor a{
+	font-size: 16px; color: rgba(208, 118, 11, 0.7); border: 2px solid #db7a09; padding: 15px;
+	text-shadow: 0px 0px 1px #db7a09; font-weight: bold;
+}
+
+/* =================================headimage=============================== */
+.headimage{
+	background-color: #433050;text-align: center;
+}
+/* ============================theinfo======================================== */
+.theinfo{
+	margin-top: 4%;
+}
+.heading {
+    text-align: center;
+    margin-bottom: 40px; color: #736f6f;font-family: 'Quattrocento', serif; 
+}
+.box{
+	    margin: 0;bottom: 80%;width: 100%; background-color: rgba(255, 255, 255, 1);padding: 10px;
+    position: absolute;color: #5A5A5A;font-family: 'Libre Baskerville', serif;
+}
+img.top {
+    position: relative;
+    top: 0;
+    z-index: -4;
+}
+/* ====================================theinfo=========================== */
+.lead{
+	font-size: 21px;line-height: 29px;margin-bottom: 20px;font-weight: 300;color: #5a5a5a;
+	font-family: 'Libre Baskerville', serif;padding-bottom: 13px;word-spacing: 2px;letter-spacing: 1px;
+}
+.anchor2{ font-size: 21px;border-radius: 0;text-transform: uppercase;background: 0 0; padding: 10px 16px;
+    color: #ff7322!important;font-weight: 700; border: 2px solid #ff7322;}
+
+hr{ margin-top: 40px;margin-bottom: 20px;border: 0;border-top: 1px solid #eee;}
+.line{ margin: 80px 0;border: 0;border-top: 1px solid #eee;}
+
+/* =====================================facilities============================ */
+.faci{font-size: 36px;font-weight: bold;font-family: 'Quattrocento', serif; line-height: 40px;color: #5a5a5a;}
+.lux{font-size: 14px;line-height: 24px;color: #5a5a5a;font-family: 'Libre Baskerville', serif;}
+
+.circle1{color: #ff7322; font-size: 15px; margin-right: 8px;}
+
+.tick{
+	padding-left: 0;
+}
+li p{margin-left: 23px;margin-bottom: 0;}
+
+.circle2{color: #ff7322; font-size: 15px; margin-right: 8px;}
+
+.line2{
+	margin: 80px 0;border-radius: 0;border-top: 1px solid #eee;
+}
+
+.begnas{
+	position: relative;
+}
+.begnas2{
+	position: absolute;    position: absolute;top: 65%;left: 16%;color: #fff;text-shadow: 0 0 10px #000;
+}
+/* ================================footer======================= */
+.footer{
+	padding-top: 1.5%;margin-top: 5%;text-align: center;background-color: #e7e7e7;padding-bottom: 3%;
+}
+.footer p{
+	font-size: 16px;line-height: 24px; color: #5a5a5a;margin-bottom: 0;
+}
+.phone2{
+	margin-left: 1%;color: #f85b00;font-size: 16px; line-height: 16px;
+}
+.footer a{
+	font-size: 16px;line-height: 24px;color: #f85b00;
+}
+ a.city{
+	font-size: 16px;line-height: 24px;color: #f85b00;
+}
+.footinfo{
+	margin-top: 1%;
+}
+.menubar{display: block;}
+.navbarlist2{display: none;}
+.navbar2{display: none;}
+.menu2{display: none;}
+.anchor{display: block;}
+
+@media only screen and (max-width: 1024px){
+  .nav>li>a {padding: 10px 6px;}
+  .anchor3{left: 34%;}
+  .navbarlist{margin-left: 10px;}
+  .map{margin-top: 0px;}
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	
+	.container{width: auto;} .navbarlist{margin-left: -53px;}
+.map{margin-top: 5px;}.anchor{margin-top: 20px;}
+  
+  .begnas{margin-top: 30px;text-align: center;}
+  .begnas2{left: 37%;width: 250px;}
+}
+
+@media only screen and (max-width: 800px){
+	.begnas2{left: 36%;}
+}
+@media only screen and (max-width: 823px){
+.anchor{margin-top: 25px;}
+.anchor a{font-size: 15px;padding: 11px;}
+
+}
+
+ @media only screen and (max-width: 795px){
+ 	.navbarlist {margin-left: -65px;}
+ }
+
+
+
+
+/* =========================================media query 767px======================= */
+@media only screen and (max-width: 767px){
+.logo2{position: relative;}
+.anchor a{position: absolute;padding: 11px;right: 30px;bottom: 20px;}
+.menubar{display: none;}
+.feature p{margin-right: 15px;}
+.featureinfo p{margin-right: 15px;}
+.navbar-nav{display: none;}
+
+.navbar-nav2 {
+    background-color: #00cccc;
+}
+.navbar2{display: block;}
+.navbarlist2{display: none;}
+.navbar-toggle{display: block;}
+.navbar-header{background-color: rgba(143, 5, 15, 0.9);}
+.dash2{background-color: #000;}
+.navbar-default .navbar-toggle:hover {background-color: #000}
+.navbar-nav{background-color: #00cccc;}
+.home3{color: rgba(55, 11, 12, 0.9)!important;}
+.drop1:hover .submenu1{background-color:#ffff66; }
+.submenu1{top: 30px;width: 120px; margin-left: 120px;}
+.submenu1 li a{line-height: 28px;background-color: #ffff66;}
+.anchor3{left: 25%;}
+.begnas{text-align: center;margin-top: 40px;}
+.begnas2{top: 65%;left: 35%;width: 250px;}
+.map{margin-left: 0px;}
+.headimage{margin-top: 5%;}
+
+}
+@media only screen and (max-width: 710px){
+	
+	.begnas2{left: 32%;}
+}
+@media only screen and (max-width: 585px){
+	.begnas2{left: 30%;}
+}
+@media only screen and (max-width: 425px){
+	
+	.begnas2{left: 17%;}
+}
+@media only screen and (max-width: 375px){
+	.anchor{margin-top: 7%;}
+	.anchor a{padding: 10px;} 
+	.begnas2{left: 17%;}
+}
+
+
+
+@media only screen and (max-width: 320px){
+	.anchor{margin-top: 8%;}
+	.begnas2{left: 17%;}
+}
+
+
+
+
+

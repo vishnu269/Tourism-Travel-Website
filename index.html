@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>City Pokhara</title>
+	 
+	 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+     <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+  
+  <style>
+@import url('https://fonts.googleapis.com/css?family=Cardo|Quattrocento');
+</style>
+   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	 <script src="js/jssor.slider-23.0.0.min.js" type="text/javascript"></script>
+</head>
+<body>
+
+<!-- =======================header================================= -->
+<header class="header">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container cont">
+<div class="row menu9">
+		 
+<div class="col-md-6 logo2">
+    <div class="logo">
+    <h1>Cityliving<span> Pokhara</span></h1>
+ 	</div><!-- col -->
+    </div><!-- logo-->
+     
+  <div class="col-md-4">
+
+     <ul class="nav menubar navbarlist navbar-nav">
+            <li><a href="Pokhara.html">Home</a></li>
+            <li class="drop1"><a href="#">The Apartments</a>
+              <ul class="submenu1">
+                <li><a href="lakestar.html">Lakestar</a></li>
+                <li><a href="jalmahal.html">Jalmahal</a></li>
+                <li><a href="begnas.html">Begnas</a></li>
+              </ul>
+            </li>
+         <li><a href="location.html">Location</a></li>
+            <li><a href="contact.html">Contacts</a></li>
+
+        </ul>
+        </div><!-- col-md-4-->
+
+
+        <div class="col-md-2 anchor">
+   <a href="" title="Booking">Book Now</a>
+</div><!-- col -->
+
+   
+
+<!-- =============================media query nav 767px ==========================-->
+     <div class="col-md-4">
+
+<nav class="navbar2 navbar-default" role="navigation">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+     <button type="button" class="navbar-toggle dash2" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar" style="background: #fff;"> </span>
+            <span class="icon-bar" style="background: #fff;"></span>
+            <span class="icon-bar" style="background: #fff;"></span>
+          </button>
+          
+        </div>
+    
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+          <ul class="nav menu9 navbar-nav">
+          <li><a class="home3" href="Pokhara.html">Home</a></li>
+          <li class="drop1"><a class="home3" href="#">The Apartments</a>
+              <ul class="submenu1">
+                <li><a class="home3" href="lakestar.html">Lakestar</a></li>
+                <li><a class="home3" href="jalmahal.html">Jalmahal</a></li>
+                <li><a  class="home3" href="begnas.html">Begnas</a></li>
+              </ul>
+               </li>
+         <li><a  class="home3" href="location.html">Location</a></li>
+            <li><a class="home3" href="contact.html">Contacts</a></li>
+
+            
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+
+</div><!-- row-->
+
+        </div><!-- container -->
+        <div class="clearfix"></div>  
+
+    </nav>
+    </header><!--header-->
+
+
+<!--================================== banner====================================== -->
+<div class="banner">
+ <!-- #region Jssor Slider Begin -->
+    <script src="js/jssor.slider-23.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Cols: 9,
+                $SpacingX: 3,
+                $SpacingY: 3,
+                $Align: 260
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1270);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 60);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+    <style>
+        /* jssor slider arrow navigator skin 02 css */
+        /*
+        .jssora02l                  (normal)
+        .jssora02r                  (normal)
+        .jssora02l:hover            (normal mouseover)
+        .jssora02r:hover            (normal mouseover)
+        .jssora02l.jssora02ldn      (mousedown)
+        .jssora02r.jssora02rdn      (mousedown)
+        .jssora02l.jssora02lds      (disabled)
+        .jssora02r.jssora02rds      (disabled)
+        */
+        .jssora02l, .jssora02r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('img/a02.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora02l { background-position: -3px -33px; }
+        .jssora02r { background-position: -63px -33px; }
+        .jssora02l:hover { background-position: -123px -33px; }
+        .jssora02r:hover { background-position: -183px -33px; }
+        .jssora02l.jssora02ldn { background-position: -3px -33px; }
+        .jssora02r.jssora02rdn { background-position: -63px -33px; }
+        .jssora02l.jssora02lds { background-position: -3px -33px; opacity: .3; pointer-events: none; }
+        .jssora02r.jssora02rds { background-position: -63px -33px; opacity: .3; pointer-events: none; }
+        /* jssor slider thumbnail navigator skin 03 css *//*.jssort03 .p            (normal).jssort03 .p:hover      (normal mouseover).jssort03 .pav          (active).jssort03 .pdn          (mousedown)*/.jssort03 .p {    position: absolute;    top: 0;    left: 0;    width: 62px;    height: 32px;}.jssort03 .t {    position: absolute;    top: 0;    left: 0;    width: 100%;    height: 100%;    border: none;}.jssort03 .w, .jssort03 .pav:hover .w {    position: absolute;    width: 60px;    height: 30px;    border: white 1px dashed;    box-sizing: content-box;}.jssort03 .pdn .w, .jssort03 .pav .w {    border-style: solid;}.jssort03 .c {    position: absolute;    top: 0;    left: 0;    width: 62px;    height: 32px;    background-color: #000;    filter: alpha(opacity=45);    opacity: .45;    transition: opacity .6s;    -moz-transition: opacity .6s;    -webkit-transition: opacity .6s;    -o-transition: opacity .6s;}.jssort03 .p:hover .c, .jssort03 .pav .c {    filter: alpha(opacity=0);    opacity: 0;}.jssort03 .p:hover .c {    transition: none;    -moz-transition: none;    -webkit-transition: none;    -o-transition: none;}* html .jssort03 .w {    width /**/: 62px;    height /**/: 32px;}
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:600px;height:300px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:600px;height:300px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="images/scene1.jpg"  />
+                <img data-u="thumb" src="images/scene1.jpg"  />
+                </div>
+            <div>
+                <img data-u="image" src="images/scene2.jpg" />
+                <img data-u="thumb" src="images/scene2.jpg" />
+            </div>
+            <div>
+                <img data-u="image" src="images/scene3.jpg" />
+                <img data-u="thumb" src="images/scene3.jpg" />
+            </div>
+            
+       </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort03" style="position:absolute;left:0px;bottom:0px;width:600px;height:60px;" data-autocenter="1">
+            <div style="position:absolute;top:0;left:0;width:100%;height:100%;background-color:#000;filter:alpha(opacity=30.0);opacity:0.3;"></div>
+            <!-- Thumbnail Item Skin Begin -->
+            <div data-u="slides" style="cursor: default;">
+                <div data-u="prototype" class="p">
+                    <div class="w">
+                        <div data-u="thumbnailtemplate" class="t"></div>
+                    </div>
+                    <div class="c"></div>
+                </div>
+            </div>
+            <!-- Thumbnail Item Skin End -->
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora02l" style="top:0px;left:8px;width:55px;height:55px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora02r" style="top:0px;right:8px;width:55px;height:55px;" data-autocenter="2"></span>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+    <!-- #endregion Jssor Slider End -->
+
+
+
+	
+
+</div><!-- banner -->
+
+<div class="feature">
+<div class="container">
+<h1>Welcome to <span>CityLiving.Pokhara</span></h1>
+<p>City Living Pokhara is a specialist provider of quality contemporary short term serviced apartments located in historic buildings within Central Pokhara. Whether you are visiting for business or pleasure, our luxury apartments offer the perfect alternative to a hotel for a short or extended stay. With comprehensive free wifi in all apartments and a regular housekeeping service, you will have the comfort of home without the hassle. Our apartments are perfectly located for both the business hub of the City and the classic tourist sights of the West End, Covent Garden, Bloomsbury and Westminster.</p>
+<p>To find out more about our apartments click a building below</p>
+	
+</div><!-- container -->
+</div><!-- feature  -->
+
+<div class="featureimage">
+<div class="container">
+<div class="row">
+<div class="col-md-3">&nbsp;</div><!-- col -->
+
+<div class="col-md-2 anchor2">
+<a href="" title><img src="images/lakestar.jpg" width="200px" height="162px" alt=""></a>
+<h2>LAKESTAR</h2>
+</div><!-- col -->
+<div class="col-md-2 anchor2">
+<a href="" title><img src="images/jalmahal.jpg" width="200px" height="162px" alt=""></a>
+<h2>JALMAHAL</h2>
+</div><!-- col -->
+<div class="col-md-2 anchor2">
+<a href="" title><img src="images/begnas.jpg" width="200px" height="162px" alt=""></a>
+<h2>BEGNAS</h2>
+</div><!-- col -->
+
+<div class="col-md-3">&nbsp;</div><!-- col -->	
+</div><!-- row -->
+</div><!-- container -->
+</div><!-- featureimage -->
+
+<div class="featureinfo">
+<div class="container">	
+
+<h1>Amazing <span>Locations</span></h1>
+<p>Incredibly central, the apartments are located in Clerkenwell and Bank, London’s design capital and fashionable loft district and financial hub respectively. The apartments in Clerkenwell and set within former warehouses within easy walking distance of Farringdon station. The apartments in Bishopsgate are set within an elaborate listed building equidistant to both Liverpool Street and Bank stations.</p>
+</div><!-- container -->
+</div><!-- featureinfo -->
+
+<div class="map">
+<div class="container">
+
+<iframe class="mapinfo" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56241.740747611875!2d83.96192793849234!3d28.23437729255821!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995937bbf0376ff%3A0xf6cf823b25802164!2sPokhara!5e0!3m2!1sen!2snp!4v1492035159429" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+<a class="anchor3" href=""> FULL MAP AND DISTANCES</a>
+</div><!-- container -->
+</div><!-- map -->
+
+<div class="review">
+<div class="container">
+<h1>Reviews</h1>
+<p>Every single one of our guests is given the opportunity to leave a frank and honest public review which we do not censor or delete. We believe in honesty and transparency. Below are all the reviews that we have received directly plus all those which have been left by guests who have booked on Airbnb.</p>
+
+</div><!-- container -->
+</div><!-- review -->
+<div class="star">
+<div class="container">
+<a href=""><i class="fa fa-star staricon" aria-hidden="true"></i></a> <a href=""><i class="fa fa-star staricon" aria-hidden="true"></i></a> <a href=""><i class="fa fa-star staricon" aria-hidden="true"></i> </a><a href=""><i class="fa fa-star staricon" aria-hidden="true"></i></a> <a href=""><i class="fa fa-star-half-o staricon" aria-hidden="true"></i></a> <a class="staricon2" href="">16</a>
+<p><a class="sixteen" href="">16 Reviews</a></p>
+
+</div><!-- container -->
+</div><!-- star -->
+
+<div class="room">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 begnas">
+			<a href="">
+			<h3 class="begnas2">Hotel Orchid</h3>	
+			<img class="" src="images/hotel1.png" width="262.5" height="300px" alt="">
+
+			</a>
+
+				
+			</div>
+			<div class="col-md-3 begnas">
+			<a href="">
+			<h3 class="begnas2">Shangri-La Village Pokhara</h3>	
+			<img src="images/hotel2.png" width="262.5" height="300px" alt="">
+
+			</a>
+	
+			</div>
+			<div class="col-md-3 begnas">
+			<a href="">
+			<h3 class="begnas2">Begnas Lake Resort</h3>	
+			<img src="images/hotel3.png" width="262.5" height="300px" alt="">
+
+			</a>
+	
+			</div>
+			<div class="col-md-3 begnas">
+			<a href="">
+			<h3 class="begnas2">Waterfront Resort Hotel</h3>	
+			<img src="images/hotel1.png" width="262.5" height="300px" alt="">
+
+			</a>
+	
+			</div>
+		</div><!-- row -->
+	</div><!-- container -->
+</div><!-- room -->
+
+<div class="footer">
+	<div class="container">
+		<p>City living Pokhara<a href=""><i class="fa phone2 fa-phone" aria-hidden="true"></i>
+        +44 (0) 20 7490 1122 </a></p>
+        <a class="city" href="">city.living@h-s-c.co.np</a>
+        <p class="footinfo"><img src="images/footimg.png" alt=""><p/>
+	</div>
+</div>
+
+<script src="js/bootstrap.min.js"></script>
+
+	
+</body>
+
+
+
+
+
+</html>

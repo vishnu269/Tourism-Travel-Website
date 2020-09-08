@@ -1,0 +1,264 @@
+/* ================================reset================================= */
+
+*{ margin: 0; padding: 0;}
+
+a:hover{
+	text-decoration: none;
+}
+
+img{
+	max-width: 100%;
+}
+
+
+.drop1{
+	position: relative;
+}
+.submenu1{
+	position: absolute;
+}
+
+  .submenu1{
+	position: absolute; display: none; z-index: 2; background: #fff; 
+
+}
+
+.drop1:hover .submenu1{
+    display: block; /*background-color: green;*/ width: 150px; text-decoration: none; text-align: justify;
+
+}
+.submenu1 li a:hover{
+	text-align: none; display: block; background-color: transparent; text-decoration: none; line-height: 40px; 
+    
+}
+.submenu1 li a{
+	/* line-height: 40px; */ display: block; z-index: 2;  font-size: 15px;
+	 line-height: 40px; color: #777; text-shadow: none; margin-left: 18px;
+}
+ul{
+	list-style-type: none;
+}
+
+
+
+
+
+
+/*===========================header====================================== */
+.navbar-nav>li>a{
+	    padding-bottom: 27px;
+}
+.nav>li>a{
+	    padding: 10px 13px;
+}
+.navbar-nav {
+	margin-bottom: 20px;
+}
+
+.cont{
+	padding: 10px 0;
+}
+.logo{
+	position: relative;    margin-left: 5%;
+}
+.drop1 a{
+	color: #000;
+}
+.logo h1{
+    font-size: 35px; color: #000; margin-top: 1%;
+}
+.logo h1 span{
+    font-size: 14px; color: #000; position: absolute; top: 90%; left: 12%;
+}
+.navbarlist{
+	margin-top: 2%;    margin-left: 17%;
+}
+.anchor{
+	text-align: center; margin-top: 1.4%;
+}
+.anchor a{
+	font-size: 16px; color: rgba(208, 118, 11, 0.7); border: 2px solid #db7a09; padding: 15px;
+	text-shadow: 0px 0px 1px #db7a09; font-weight: bold;
+}
+/* ================================content================================== */
+.contactimage{position: relative;}
+.contactimage h1{text-align: center;}
+.con2{position: absolute; left: 43%;top: 40%;color: #fff;}
+.center{text-align: center; }
+
+.center a{
+	color: #f85b00;
+}
+/* ===================================footer====================================== */
+.footer{
+	padding-top: 1.5%;margin-top: 5%;text-align: center;background-color: #e7e7e7;padding-bottom: 3%;
+}
+.footer p{
+	font-size: 16px;line-height: 24px; color: #5a5a5a;margin-bottom: 0;
+}
+.phone2{
+	margin-left: 1%;color: #f85b00;font-size: 16px; line-height: 16px;
+}
+.footer a{
+	font-size: 16px;line-height: 24px;color: #f85b00;
+}
+ a.city{
+	font-size: 16px;line-height: 24px;color: #f85b00;
+}
+.footinfo{
+	margin-top: 1%;
+}
+.menubar{display: block;}
+.navbarlist2{display: none;}
+.navbar2{display: none;}
+.menu2{display: none;}
+.anchor{display: block;}
+.map{margin-top: 80px;}
+
+  @media only screen and (max-width: 1024px){
+  .nav>li>a {padding: 10px 6px;}
+  .anchor3{left: 34%;}
+  .navbarlist{margin-left: 10px;}
+  .map{margin-top: 0px;}
+
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px){
+	
+	.container{width: auto;} .navbarlist{margin-left: -53px;}
+.map{margin-top: 5px;}.anchor{margin-top: 20px;}
+  
+  .begnas{margin-top: 30px;text-align: center;}
+  .begnas2{left: 37%;width: 250px;}
+}
+
+@media only screen and (max-width: 800px){
+	.begnas2{left: 36%;}
+}
+@media only screen and (max-width: 823px){
+.anchor{margin-top: 25px;}
+.anchor a{font-size: 15px;padding: 11px;}
+
+}
+
+ @media only screen and (max-width: 795px){
+ 	.navbarlist {margin-left: -65px;}
+ }
+
+  @media only screen and (max-width: 767px){
+.logo2{position: relative;}
+.anchor a{position: absolute;padding: 11px;right: 30px;bottom: 30px;}
+.menubar{display: none;}
+.feature p{margin-right: 15px;}
+.featureinfo p{margin-right: 15px;}
+.anchor{margin-top: 4%;}
+
+.navbar2{display: block;}
+.navbarlist2{display: none;}
+.navbar-toggle{display: block;}
+.navbar-header{background-color: rgba(143, 5, 15, 0.9);}
+.dash2{background-color: #000;}
+.navbar-default .navbar-toggle:hover {background-color: #000}
+.navbar-nav2{
+    background-color: #00cccc;
+}
+.home3{color: rgba(55, 11, 12, 0.9)!important;}
+.drop1:hover .submenu1{background-color:#ffff66; }
+.submenu1{top: 30px;width: 120px; margin-left: 120px;}
+.submenu1 li a{line-height: 28px;background-color: #ffff66;}
+.anchor3{left: 25%;}
+.contactimage{margin-top: 10%;}
+.con2{left: 38%;}
+.begnas{text-align: center;margin-top: 40px;}
+.begnas2{top: 65%;left: 35%;width: 250px;}
+
+
+}
+
+/* 
+@media only screen and (max-width: 767px){
+.logo2{position: relative;}
+.anchor a{position: absolute;padding: 11px;right: 30px;bottom: 30px;}
+.menubar{display: none;}
+.feature p{margin-right: 15px;}
+.featureinfo p{margin-right: 15px;}
+.anchor{margin-top: 4%;}
+
+.navbar2{display: block;}
+.navbarlist2{display: none;}
+.navbar-toggle{display: block;}
+.navbar-header{background-color: rgba(143, 5, 15, 0.9);}
+.dash2{background-color: #000;}
+.navbar-default .navbar-toggle:hover {background-color: #000}
+.navbar-nav{background-color: #00cccc;}
+.home3{color: rgba(55, 11, 12, 0.9)!important;}
+.drop1:hover .submenu1{background-color:#ffff66; }
+.submenu1{top: 30px;width: 120px; margin-left: 120px;}
+.submenu1 li a{line-height: 28px;background-color: #ffff66;}
+.anchor3{left: 25%;}
+.contactimage{margin-top: 10%;}
+.con2{left: 38%;}
+.navbar-nav{display: none;}
+
+
+} */
+
+
+
+/* @media only screen and (max-width: 767px){
+.logo2{position: relative;}
+.anchor a{position: absolute;padding: 11px;right: 30px;bottom: 30px;}
+.contactimage{margin-top: 10%;}
+.con2{left: 38%;}
+
+.menubar{display: none;}
+.feature p{margin-right: 15px;}
+.featureinfo p{margin-right: 15px;}
+.anchor{margin-top: 4%;}
+.navbar-nav{display: none;}
+.navbar-nav2{display: block;}
+.navbar2{display: block;}
+.navbarlist2{display: none;}
+.navbar-toggle{display: block;}
+.navbar-header{background-color: rgba(143, 5, 15, 0.9);}
+.dash2{background-color: #000;}
+.navbar-default .navbar-toggle:hover {background-color: #000}
+.navbar-nav{background-color: #00cccc;}
+.home3{color: rgba(55, 11, 12, 0.9)!important;}
+.drop1:hover .submenu1{background-color:#ffff66; }
+.submenu1{top: 30px;width: 120px; margin-left: 120px;}
+.submenu1 li a{line-height: 28px;background-color: #ffff66;}
+.anchor3{left: 25%;}
+
+} */
+
+@media only screen and (max-width: 640px){
+	.anchor{margin-top: 5%;}
+	.anchor a{padding: 10px;} 
+}
+@media only screen and (max-width: 550px){
+	.con2{    left: 35%;top: 48%;font-size: 30px;}
+	
+}
+@media only screen and (max-width: 375px){
+	.anchor{margin-top: 7%;}
+	.anchor a{padding: 10px;} 
+	.con2{left: 30%;}
+	
+}
+
+
+
+@media only screen and (max-width: 320px){
+	.anchor{margin-top: 8%;}
+	.con2{    top: 49%;left: 27%;}
+	
+}
+
+
+
+
+
+
+
+
